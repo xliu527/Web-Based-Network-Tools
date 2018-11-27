@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hi, {{ title }}</h1>
+ {% for item in txt %}
+    {% if item[1] == 0 %}
+        <div><p style='color:DodgerBlue;'>{{ item[0] }}</p></div>
+    {% elif item[1] == 1 %}
+        <div><p style='color:Tomato;'>{{ item[0] }}</p></div>
+    {% else %}
+        <div><p>{{ item[0] }}</p></div>
+    {% endif %}
+ {% endfor %}
+{% endblock %}
+
