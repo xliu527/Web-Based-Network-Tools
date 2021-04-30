@@ -26,7 +26,7 @@ pyparsing==2.2.0
 python-dateutil==2.7.0
 pytz==2018.3
 requests==2.18.4
-rsa==3.4.2
+rsa==4.7
 six==1.11.0
 unicategories==0.0.6
 uritemplate==3.0.0
